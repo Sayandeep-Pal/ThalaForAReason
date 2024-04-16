@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    height: 300px;
+    width: 300px; 
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+    border-radius: 2rem;
+}
+input{
+    height: 50px;
+    width: 300px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+button{
+    height: 30px;
+    width: 150px;
+    position: relative;
+    left: 0%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgb(255, 196, 0);
+}
+.thala-container{
+    height: 600px;
+    width: 320px; 
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+    border-radius: 2rem;
+}
+.search-btn{
+    height: 30px;
+    width: 150px;
+    position: relative;
+    left: 0%;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+.no-thala-container{
+    height: 500px;
+    width: 315px; 
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid gray;
+    border-radius: 2rem;   
+}
+
+.hide{
+    display: none;
+}
+
+
